@@ -9,5 +9,20 @@ public class Main {
     public static void main(String[] args) {
         Theatre Mona = new Theatre("Mona Cinema",10,12);
         Mona.getSeats();
+
+
+        if(Mona.reservedSeat("H11")){
+            System.out.println("Please pay");
+        }else{
+            System.out.println("Sorry Seat is taken");
+        }
+
+        if(Mona.reservedSeat("H11")){
+            System.out.println("Please pay");
+        }else{
+            System.out.println("Sorry Seat is taken");
+        }
+
+
     }
 }
